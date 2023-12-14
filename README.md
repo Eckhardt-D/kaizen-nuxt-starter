@@ -11,3 +11,15 @@ maintained for the public, but free to use if you wish.
 ```sh
 bunx nuxi init -t gh:Eckhardt-D/kaizen-nuxt-starter
 ```
+
+# Adding a db driver
+
+See: https://orm.drizzle.team/docs/quick-mysql/mysql2/
+
+e.g.
+
+```sh
+bun add mysql2
+```
+
+then update `db/` and migration scripts according to Drizzle docs
