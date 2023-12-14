@@ -9,5 +9,5 @@ maintained for the public, but free to use if you wish.
 
 
 ```sh
-bunx nuxi init -t Eckhardt-D/kaizen-nuxt-starter
+bunx nuxi init -t gh:Eckhardt-D/kaizen-nuxt-starter
 ```
