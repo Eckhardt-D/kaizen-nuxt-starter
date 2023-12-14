@@ -1,0 +1,32 @@
+{
+  "name": "kaizen-nuxt-starter",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "db-migration:create": "drizzle-kit generate:mysql",
+    "db-migration:run": "bun run db/migrate.ts"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.29.1"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.4.5",
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/tailwindcss": "latest",
+    "drizzle-kit": "^0.20.6",
+    "eslint": "^8.55.0",
+    "nuxt": "^3.8.2",
+    "nuxt-auth-utils": "latest",
+    "nuxt-icon": "^0.6.7",
+    "nuxt-security": "latest",
+    "vue": "^3.3.10",
+    "vue-router": "^4.2.5"
+  }
+}
